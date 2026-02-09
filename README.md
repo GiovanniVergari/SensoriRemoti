@@ -165,8 +165,7 @@ RemSensESP32/
 │   └── play_song.py       # Client Python di esempio
 │
 └── docs/
-    └── schema_cablaggio.png
-```
+    └── schema_cablaggio
 
 ---
 
