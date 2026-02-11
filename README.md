@@ -159,7 +159,7 @@ Nella cartella `tools/` è presente uno script Python che:
 RemSensESP32/
 │
 ├── RemSensESP32.ino        # Sketch principale
-├── wifi_config.h          # Credenziali WiFi (non versionare password reali)
+├── wifi_config.h          # Credenziali WiFi
 ├── README.md              # Documentazione
 │
 ├── tools/
