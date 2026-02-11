@@ -33,18 +33,19 @@ Il progetto nasce come evoluzione dell’attività *RemoRoboRadar* e viene utili
 
 ## 🔌 Cablaggio (riassunto)
 
-| Funzione | Pin ESP32 |
-|--------|----------|
-| DHT11 | GPIO dedicato |
-| HC-SR04 TRIG | GPIO dedicato |
-| HC-SR04 ECHO | GPIO dedicato |
-| LDR (ADC) | GPIO 33 |
-| LED Rosso | GPIO 21 |
-| LED Verde | GPIO 19 |
-| LED Blu | GPIO 18 |
-| Buzzer | GPIO PWM |
+| Funzione | Pin ESP32 | Colore Cavo
+|--------|----------|----------|
+| DHT11 | GPIO 27 | Bianco/Verde |
+| HC-SR04 TRIG | GPIO 26 | Blu |
+| HC-SR04 ECHO | GPIO 25 | Bianco/Blu |
+| LDR (ADC) | GPIO 33 | Arancione |
+| LED Rosso | GPIO 18 | Rosso |
+| LED Verde | GPIO 19 | Verde |
+| LED Blu | GPIO 21 | Blu |
+| Buzzer | GPIO 14 | Bianco |
 
-> Tutti i componenti lavorano a **3.3 V**, compatibili con ESP32.
+> Il sensore HC-SR04 è alimentato a **5 V**.
+> Tutti i restanti componenti a **3.3 V**.
 
 ---
 
@@ -191,12 +192,5 @@ Le credenziali WiFi sono conservate in un file separato (`wifi_config.h`) che **
 - API funzionanti
 - Interfaccia web operativa
 - Progetto in **sviluppo continuo** durante il laboratorio
-
----
-
-## 📜 Licenza
-
-Progetto a **scopo didattico**.
-Utilizzabile e modificabile liberamente per attività scolastiche.
 
 ---
