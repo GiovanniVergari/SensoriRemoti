@@ -213,20 +213,6 @@ fetch("RemSens_frontend_v1.php?api=1")
 
 ---
 
-## Suggerimento pratico per la consegna agli studenti
-
-Per evitare confusione, conviene distribuire i file con questi nomi finali:
-
-- `middleware.py`
-- `api_sensori.php`
-- `db_config.php`
-- `create_table_sensori.sql`
-- `index.php`
-
-In questo modo anche il frontend funziona senza modifiche aggiuntive.
-
----
-
 ## Possibili estensioni future
 
 - aggiunta di altri sensori al payload
